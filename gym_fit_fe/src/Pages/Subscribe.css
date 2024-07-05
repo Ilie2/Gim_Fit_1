@@ -1,0 +1,74 @@
+.subscription-offers-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .subscription-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .subscription-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-header p {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .subscription-plans {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .subscription-plan {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .subscription-plan h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #088395;
+  }
+  
+  .plan-price {
+    font-size: 1.5em;
+    color: #37B7C3;
+  }
+  
+  .plan-features {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .plan-features li {
+    margin-bottom: 10px;
+  }
+  
+  .plan-button {
+    background-color: #37B7C3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .plan-button:hover {
+    background-color: #45a049;
+  }
+  

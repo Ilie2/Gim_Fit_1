@@ -1,0 +1,80 @@
+body{
+  background: url('../Assets/home_gym_bg.jpg')no-repeat;
+}
+.homepage {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    text-align: left;
+    padding-left: 1%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+
+  }
+  
+  .hero-text p {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .features, .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .features h2, .testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .features-container, .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature, .testimonial {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .feature img, .testimonial img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .feature h3, .testimonial h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .feature p, .testimonial p {
+    color: #666;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

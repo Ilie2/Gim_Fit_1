@@ -1,0 +1,68 @@
+.courses-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .courses-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .courses-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .courses-header p {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .courses-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .course {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .course h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #088395;
+  }
+  
+  .course-description {
+    color: #EBF4F6;
+    margin-bottom: 10px;
+  }
+  
+  .course-duration {
+    color: #EBF4F6;
+    margin-bottom: 20px;
+  }
+  
+  .course-button {
+    background-color: #37B7C3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .course-button:hover {
+    background-color: #45a049;
+  }
+  

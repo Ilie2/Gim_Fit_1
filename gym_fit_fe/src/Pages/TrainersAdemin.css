@@ -1,0 +1,53 @@
+body{
+  background: url('../Assets/home_gym_bg.jpg')no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.trainers-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .trainers-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .trainers-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .trainers-header p {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .trainers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .trainer {
+    max-width: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .trainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .trainer h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+  }
+  
+  .trainer p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
