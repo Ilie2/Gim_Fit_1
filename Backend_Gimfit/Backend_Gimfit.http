@@ -1,0 +1,6 @@
+@Backend_Gimfit_HostAddress = http://localhost:5179
+
+GET {{Backend_Gimfit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
